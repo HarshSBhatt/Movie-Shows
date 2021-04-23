@@ -7,3 +7,7 @@
     @apply bg-[#06202a] text-gray-300;
   }
 }
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
