@@ -7,7 +7,7 @@ function Navbar() {
   const listOfCategory = Object.entries(requests)?.map(([key, { title }]) => {
     const isCurrent = currentGenre === key;
     return (
-      <h2
+      <div
         key={key}
         onClick={() => {
           router.push(`/?genre=${key}`);
@@ -17,7 +17,7 @@ function Navbar() {
         }`}
       >
         {title}
-      </h2>
+      </div>
     );
   });
   return (
