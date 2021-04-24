@@ -7,7 +7,7 @@ import SelectedShow from "components/Show";
 
 function Show({ result, reviews }) {
   // console.log(result);
-  console.log(reviews);
+  // console.log(reviews);
   const router = useRouter();
   return (
     <div>
